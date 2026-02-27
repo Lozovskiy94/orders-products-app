@@ -38,6 +38,7 @@ cd orders-products-app
 Install dependencies:
 
 npm install
+
 🖥 Run Application
 
 Start frontend (Vite dev server):
@@ -47,6 +48,7 @@ npm run dev
 App will run at:
 
 http://localhost:5173
+
 🔌 Run WebSocket Server (Active Tabs Counter)
 
 In a separate terminal:
@@ -72,7 +74,10 @@ src/
  ├── hooks/
  ├── mock/
  └── App.jsx
+
+ 
 🧠 Implemented Features
+
 ✅ Global State (Redux Toolkit)
 
 Products slice
@@ -147,6 +152,7 @@ npm run build
 Preview production build:
 
 npm run preview
+
 📌 Notes
 
 All data is stored in Redux store (mock-based).
