@@ -61,20 +61,6 @@ ws://localhost:8081
 
 This is used to count active browser tabs in real time.
 
-📂 Project Structure
-src/
- ├── components/
- ├── pages/
- ├── store/
- │    ├── productsSlice.js
- │    ├── ordersSlice.js
- │    ├── groupsSlice.js
- │    ├── uiSlice.js
- │    └── selectors.js
- ├── hooks/
- ├── mock/
- └── App.jsx
-
  
 🧠 Implemented Features
 
