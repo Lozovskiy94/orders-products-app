@@ -1,0 +1,28 @@
+.products-list-header {
+  display: grid;
+  grid-template-columns:
+    16px        
+    2.5fr       
+    1fr         
+    2fr         
+    1fr       
+    2fr         
+    2fr         
+    32px;       
+
+  align-items: center;
+  gap: 12px;
+
+  padding: 6px 16px;
+  margin-bottom: 8px;
+
+  font-size: 12px;
+  color: #9aa3ad;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.products-list-header > :nth-child(5),
+.products-list-header > :nth-child(7) {
+  justify-self: start; /
+}

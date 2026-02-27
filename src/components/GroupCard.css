@@ -1,0 +1,108 @@
+.group-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns:
+    60px      
+    1fr         
+    120px      
+    70px;       
+
+  align-items: center;
+  gap: 12px;
+
+  padding: 14px 16px;
+  background: #fff;
+  border: 1px solid #e6e8ee;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s ease;
+}
+
+.group-card:hover {
+  background: #f9fafb;
+}
+
+.group-card.active {
+  position: relative;
+  border-color: #cfd6e4;
+}
+
+.group-card.active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 28px;
+  height: 100%;
+  background: #dfe3ea;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #d7dbe5;
+  display: grid;
+  place-items: center;
+  color: #6b7280;
+  background: #fff;
+  z-index: 2;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.count .big {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.count .small {
+  font-size: 12px;
+  color: #8a94a6;
+}
+
+.date {
+  font-size: 14px;
+  color: #64748b;
+}
+
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  position: relative;
+  z-index: 3; 
+}
+
+.trash {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.trash:hover {
+  opacity: 1;
+}
+
+.arrow {
+  color: #fff;
+  font-size: 22px;
+  z-index: 3;
+}

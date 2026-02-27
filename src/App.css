@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+
+.content {
+  background: #f5f6f8;
+  padding: 24px;
+  overflow-y: auto;
+}

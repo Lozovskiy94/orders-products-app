@@ -1,0 +1,56 @@
+.group-details {
+  background: #fff;
+  border: 1px solid #e6e8ee;
+  border-radius: 6px;
+  padding: 18px 18px 10px;
+  position: relative;
+  min-height: 520px;
+}
+
+.group-details .close {
+  position: absolute;
+  right: -14px;
+  top: -14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  cursor: pointer;
+  font-size: 22px;
+  color: #7a8797;
+}
+
+.group-details .title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0 14px;
+}
+
+.add-product {
+  border: none;
+  background: transparent;
+  color: #7ed321;
+  cursor: pointer;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.add-product .plus {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #7ed321;
+  color: #fff;
+  font-weight: 700;
+}
+
+.products {
+  border-top: 1px solid #eef0f5;
+}

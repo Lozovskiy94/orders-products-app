@@ -1,0 +1,31 @@
+.arrivals-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.arrivals-header .left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.add-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #7ed321;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #6cc01b;
+}
+
+.arrivals-header h1 {
+  font-size: 22px;
+  font-weight: 600;
+}

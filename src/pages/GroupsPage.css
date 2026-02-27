@@ -1,0 +1,11 @@
+.groups-layout {
+  display: grid;
+  grid-template-columns: 360px 1fr; 
+  gap: 56px;
+  align-items: start;
+}
+
+
+.groups-layout > * {
+  min-width: 0;
+}
