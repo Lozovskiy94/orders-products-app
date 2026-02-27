@@ -11,12 +11,11 @@ function broadcastCount() {
 }
 
 wss.on("connection", (ws) => {
-  // как только вкладка подключилась — всем новое число
+
   broadcastCount();
 
   ws.on("message", (data) => {
-    // можно игнорировать, нам пока не нужно
-    // оставим на будущее (например, ping/pong, имя вкладки и т.д.)
+
   });
 
   ws.on("close", () => {
@@ -24,7 +23,7 @@ wss.on("connection", (ws) => {
   });
 
   ws.on("error", () => {
-    // на всякий случай
+
   });
 });
 
